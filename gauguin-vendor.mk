@@ -328,13 +328,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gauguin/proprietary/vendor/firmware/a615_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.mdt \
     vendor/xiaomi/gauguin/proprietary/vendor/firmware/a619_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a619_gmu.bin \
     vendor/xiaomi/gauguin/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
-    vendor/xiaomi/gauguin/proprietary/vendor/firmware/a650_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_gmu.bin \
-    vendor/xiaomi/gauguin/proprietary/vendor/firmware/a650_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_sqe.fw \
-    vendor/xiaomi/gauguin/proprietary/vendor/firmware/a650_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.b00 \
-    vendor/xiaomi/gauguin/proprietary/vendor/firmware/a650_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.b01 \
-    vendor/xiaomi/gauguin/proprietary/vendor/firmware/a650_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.b02 \
-    vendor/xiaomi/gauguin/proprietary/vendor/firmware/a650_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.elf \
-    vendor/xiaomi/gauguin/proprietary/vendor/firmware/a650_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.mdt \
     vendor/xiaomi/gauguin/proprietary/vendor/firmware/aw8624_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8624_haptic.bin \
     vendor/xiaomi/gauguin/proprietary/vendor/firmware/aw8624_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8624_rtp.bin \
     vendor/xiaomi/gauguin/proprietary/vendor/firmware/cs35l41-delta-rcv-handset.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-delta-rcv-handset.txt \
@@ -355,13 +348,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gauguin/proprietary/vendor/firmware/cs35l41-revB2-dsp1-spk-cali.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-revB2-dsp1-spk-cali.wmfw \
     vendor/xiaomi/gauguin/proprietary/vendor/firmware/cs35l41-revB2-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-revB2-dsp1-spk-prot.bin \
     vendor/xiaomi/gauguin/proprietary/vendor/firmware/cs35l41-revB2-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-revB2-dsp1-spk-prot.wmfw \
-    vendor/xiaomi/gauguin/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
-    vendor/xiaomi/gauguin/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
-    vendor/xiaomi/gauguin/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
-    vendor/xiaomi/gauguin/proprietary/vendor/firmware/ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b03 \
-    vendor/xiaomi/gauguin/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
-    vendor/xiaomi/gauguin/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
-    vendor/xiaomi/gauguin/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/xiaomi/gauguin/proprietary/vendor/firmware/lagoon_ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.b00 \
     vendor/xiaomi/gauguin/proprietary/vendor/firmware/lagoon_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.b01 \
     vendor/xiaomi/gauguin/proprietary/vendor/firmware/lagoon_ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.b02 \
