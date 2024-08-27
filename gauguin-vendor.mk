@@ -833,7 +833,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0-service-Impl \
     vendor.qti.imsrtpservice@3.0-vendor \
     vendor.qti.latency@2.0 \
-    vendor.xiaomi.hardware.fx.tunnel@1.0 \
     capi_v2_aptX_CLHDADV_Encoder \
     capi_v2_aptX_CLHDAD_Speech_Decoder \
     libMIAIHDR_skel \
