@@ -51,6 +51,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gauguin/proprietary/vendor/etc/camera/goturn_target_dsp.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/goturn_target_dsp.dlc \
     vendor/xiaomi/gauguin/proprietary/vendor/etc/camera/hdrd_ui9_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hdrd_ui9_params.config \
     vendor/xiaomi/gauguin/proprietary/vendor/etc/camera/media_profiles_forceaftrigger_apps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/media_profiles_forceaftrigger_apps.xml \
+    vendor/xiaomi/gauguin/proprietary/vendor/etc/camera/facedetectpp_0_5_2_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/facedetectpp_0_5_2_model \
     vendor/xiaomi/gauguin/proprietary/vendor/etc/camera/mibokeh_712_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_712_opencl.bin \
     vendor/xiaomi/gauguin/proprietary/vendor/etc/camera/mibokeh_712_parameter.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_712_parameter.bin \
     vendor/xiaomi/gauguin/proprietary/vendor/etc/camera/model.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model.dat \
@@ -540,6 +541,7 @@ PRODUCT_PACKAGES += \
     lib-rtpsl \
     lib-siputility \
     lib-uceservice \
+    libFaceDetectpp-0.5.2 \
     libGPQTEEC_vendor \
     libGPTEE_vendor \
     libGPreqcancel \
@@ -610,6 +612,7 @@ PRODUCT_PACKAGES += \
     libdrmtime \
     libdsi_netctrl \
     libdsutils \
+    libfacedet \
     libfocus \
     libft2vendor \
     libgf_ca \
