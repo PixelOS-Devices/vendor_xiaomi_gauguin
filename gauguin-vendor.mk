@@ -374,16 +374,23 @@ PRODUCT_PACKAGES += \
     libaudcal \
     libaudio_log_utils \
     libaudioconfigstore \
+    libaudioparsers \
     libaudioroute_ext \
+    libbatterylistener \
     libbluetooth_audio_session_qti \
     libcapiv2svacnn \
     libcapiv2svarnn \
     libcapiv2vop \
+    libcomprcapture \
     libdsd2pcm \
+    libexthwplugin \
     libgcs-calwrapper \
     libgcs-ipc \
     libgcs-osal \
     libgcs \
+    libhdmiedid \
+    libhdmipassthru \
+    libhfp \
     liblistensoundmodel2 \
     libmmosal-vendor \
     libmulawdec \
@@ -395,6 +402,8 @@ PRODUCT_PACKAGES += \
     libqcodec2_v4l2codec \
     libqtigef \
     libresampler \
+    libsndmonitor \
+    libspkrprot \
     libssrec \
     libwfdcommonutils_proprietary \
     libwfddisplayconfig_proprietary \
