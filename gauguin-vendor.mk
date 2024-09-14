@@ -396,6 +396,10 @@ PRODUCT_PACKAGES += \
     libqtigef \
     libresampler \
     libssrec \
+    libwfdcommonutils_proprietary \
+    libwfddisplayconfig_proprietary \
+    libwfdmmservice_proprietary \
+    libwfdutils_proprietary \
     libasphere \
     libmisoundfx \
     libshoebox \

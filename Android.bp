@@ -1814,6 +1814,74 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libwfdcommonutils_proprietary",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libwfdcommonutils_proprietary.so"],
+			shared_libs: ["libmmosal-vendor", "liblog", "libutils", "libcutils", "libion", "libprocessgroup", "libwfddisplayconfig_proprietary", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libwfddisplayconfig_proprietary",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libwfddisplayconfig_proprietary.so"],
+			shared_libs: ["libhidlbase", "libutils", "libcutils", "liblog", "vendor.display.config@2.0", "libdisplayconfig.qti", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libwfdmmservice_proprietary",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libwfdmmservice_proprietary.so"],
+			shared_libs: ["libmmosal-vendor", "liblog", "libutils", "libcutils", "libbinder", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libwfdutils_proprietary",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libwfdutils_proprietary.so"],
+			shared_libs: ["libmmosal-vendor", "liblog", "libion", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libasphere",
 	owner: "xiaomi",
 	strip: {
