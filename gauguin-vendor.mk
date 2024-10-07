@@ -313,16 +313,6 @@ PRODUCT_PACKAGES += \
     vulkan.adreno \
     libC2D2 \
     libCB \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAmrDec \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
-    libOmxEvrcDec \
-    libOmxG711Dec \
-    libOmxQcelp13Dec \
-    libOmxVpp \
-    libOmxWmaDec \
     libOpenCL \
     libVkLayer_q3dtools \
     libadreno_utils \
@@ -335,15 +325,8 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     libgpudataproducer \
     libgsl \
-    libidl \
     libllvm-glnext \
     libllvm-qcom \
-    libmdmdetect \
-    libqmi_cci \
-    libqmi_common_so \
-    libqmi_csi \
-    libqmi_encdec \
-    libqmiservices \
     libscveCommon \
     libscveCommon_stub \
     libscveObjectSegmentation \
@@ -363,8 +346,18 @@ PRODUCT_PACKAGES += \
     audio.primary.lito \
     vendor.qti.hardware.audiohalext@1.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
+    libOmxAacDec \
+    libOmxAlacDec \
+    libOmxAmrDec \
+    libOmxAmrwbplusDec \
+    libOmxApeDec \
     libOmxDsdDec \
+    libOmxEvrcDec \
+    libOmxG711Dec \
+    libOmxQcelp13Dec \
     libOmxVideoDSMode \
+    libOmxVpp \
+    libOmxWmaDec \
     liba2dpoffload \
     libacdb-fts \
     libacdbloader \
@@ -620,6 +613,7 @@ PRODUCT_PACKAGES += \
     libhta \
     libhta_hexagon_runtime \
     libhydra_common \
+    libidl \
     libipebpsstriping \
     libizat_client_api \
     libizat_core \
@@ -635,6 +629,7 @@ PRODUCT_PACKAGES += \
     liblowi_client \
     liblowi_wifihal \
     liblqe \
+    libmdmdetect \
     libmdsprpc \
     libmiStereoFactoryRemapBasicLib \
     libmiStereoFactoryRemapLib \
@@ -677,9 +672,14 @@ PRODUCT_PACKAGES += \
     libqdp \
     libqisl \
     libqmi \
+    libqmi_cci \
     libqmi_client_helper \
     libqmi_client_qmux \
+    libqmi_common_so \
+    libqmi_csi \
+    libqmi_encdec \
     libqmi_legacy \
+    libqmiservices \
     libqrtr \
     libqseed3 \
     libqsocket \
