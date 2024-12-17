@@ -10744,6 +10744,7 @@ cc_prebuilt_library_shared {
                 "libEGL",
                 "libion",
                 "libGLESv2",
+                "libgrallocutils",
                 "libmpbase",
                 "libarcsoft_beautyshot",
                 "libarcsoft_portrait_lighting",
